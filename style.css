@@ -5,6 +5,12 @@
 }
 
 /*--------------------GLOBAL START--------------------*/
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+}
 
 a{
   text-decoration: none;
@@ -16,7 +22,7 @@ p{
 }
 
 body{
-  background-image: url(bac.jpeg);
+  background-image: url(https://raw.githubusercontent.com/AlayandeWork/NewspaperStyleSheet/main/bac.jpeg);
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
