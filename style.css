@@ -561,14 +561,14 @@ blockquote p {
   padding: 20px 0;
   align-items: center;
   justify-items: center;
-  opacity: 0.2;
+  opacity: 0.9;
   text-align: center;
-  
   padding: 40px;
 }
-.page-footer:hover{
+/* .page-footer:hover{
   opacity: 0.9;
-}
+} */
+
 .page-footer p, .page-footer ul {
   margin: 0;
   padding: 0;
@@ -579,10 +579,10 @@ blockquote p {
   color: lightblue;
   text-decoration: none;
 }
-.page-footer >.container p a:nth-of-type(1):hover,
-.page-footer >.container p a:nth-of-type(2):hover,
-.page-footer >.container p a:nth-of-type(3):hover,
-.page-footer >.container p a:nth-of-type(4):hover{
+.page-footer >.container p a:nth-of-type(1),
+.page-footer >.container p a:nth-of-type(2),
+.page-footer >.container p a:nth-of-type(3),
+.page-footer >.container p a:nth-of-type(4){
   color: black;
   background-color: white;
   text-decoration: none;
