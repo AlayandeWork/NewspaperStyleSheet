@@ -241,6 +241,10 @@ blockquote p {
   text-align: justify;
 }
 
+blockquote a {
+  color: #6CB6FF;
+}
+
 /*--------------------MAIN END--------------------*/
 
 
@@ -565,9 +569,6 @@ blockquote p {
   text-align: center;
   padding: 40px;
 }
-/* .page-footer:hover{
-  opacity: 0.9;
-} */
 
 .page-footer p, .page-footer ul {
   margin: 0;
@@ -579,10 +580,10 @@ blockquote p {
   color: lightblue;
   text-decoration: none;
 }
-.page-footer >.container p a:nth-of-type(1),
-.page-footer >.container p a:nth-of-type(2),
-.page-footer >.container p a:nth-of-type(3),
-.page-footer >.container p a:nth-of-type(4){
+.page-footer >.container p a:nth-of-type(1):hover,
+.page-footer >.container p a:nth-of-type(2):hover,
+.page-footer >.container p a:nth-of-type(3):hover,
+.page-footer >.container p a:nth-of-type(4):hover{
   color: black;
   background-color: white;
   text-decoration: none;
