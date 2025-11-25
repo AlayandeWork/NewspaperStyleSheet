@@ -241,9 +241,14 @@ blockquote p {
   text-align: justify;
 }
 
-blockquote a {
-  color: #6CB6FF;
+blockquote a,
+blockquote a:visited,
+blockquote a:hover,
+blockquote a:active {
+  text-decoration: none;
+  color: #6CB6FF; 
 }
+
 
 /*--------------------MAIN END--------------------*/
 
