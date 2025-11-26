@@ -12,7 +12,8 @@
     }
 }
 
-a{
+a,
+a:active{
   color: blue;
   text-decoration: none;
 }
@@ -400,9 +401,10 @@ blockquote a:active {
   font-size: 0.9em;
 }
 
+#contribute > .container:nth-of-type(2) ol li a:active,
 #contribute > .container:nth-of-type(2) ol li a{
   text-align: end;
-  color: #302b1f;
+  color: blue;
   font-size: 1em;
 }
 
@@ -438,6 +440,11 @@ blockquote a:active {
   text-align: center;
 }
 
+/* #contribute >.container a{
+  color: blue;
+  text-decoration: none;
+} */
+
 #files{
   height: auto;
   margin: 10px;
@@ -466,6 +473,7 @@ blockquote a:active {
   border-bottom: 1px solid black;
   margin-bottom: 42px;
 }
+
 
 /*--------------------CONTRIBUTE END--------------------*/
 
